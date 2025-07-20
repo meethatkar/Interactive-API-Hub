@@ -9,60 +9,162 @@
 </head>
 
 <body>
-    <!--    it includes multiple api interactions like goto gemini and see 7 api projects show there  -->
-    <nav>        <h1> Welcome To Interactive API Hub </h1>
-</nav>
+    <!--    it includes multiple api interactions like goto gemini and see 7 api projects show there -->
+    <nav>
+        <h1> Welcome To Interactive API Hub </h1>
+    </nav>
     <main>
-        <ol>
-            <li>
-                <div class="list-data L">
-                    <p> Access comprehensive country data and insights by clicking here--> </p>
-                    <a href="https://meethatkar.github.io/Country-Info-Extracter/"> 🌍 Get Country Information </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data R">
-                    <p> Need a smile? check out our collection of jokes by clicking here--> </p>
-                    <a href="https://meethatkar.github.io/Jokerrrr/"> 😂 Get Jokes  </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data L">
-                    <!-- <p> Many more To come soon....... </p> -->
-                    <p> Curious about today's exchange rates? Convert currency instantly!-->  </p>
-                    <a href="https://the-exchange-booth.netlify.app/"> 💱 Get Currency Rates </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data R">
-                    <p> Curious about the forecast? Our Weather Checker app has you covered.--> </p>
-                    <a href="https://simple-weather-checker.netlify.app/"> ☁️ Click to Get Weather Update </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data L">
-                    <h1> More coming soonnnnnnn................</h1>
-                </div>
-            </li>
-            <!-- <li>
-                <div class="list-data">
-                    <p> Access comprehensive country data and insights by clicking here </p>
-                    <a href="country/country_page.html"> Get Country Information </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data">
-                    <p> Access comprehensive country data and insights by clicking here </p>
-                    <a href="country/country_page.html"> Get Country Information </a>
-                </div>
-            </li>
-            <li>
-                <div class="list-data">
-                    <p> Access comprehensive country data and insights by clicking here </p>
-                    <a href="country/country_page.html"> Get Country Information </a>
-                </div>
-            </li> -->
-        </ol>
+
+        <!-- JOKE -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2> Daily Giggles </h2>
+                <p>Need a quick laugh or want to brighten your day? This section connects you to a joke API that
+                    delivers a wide range of witty one-liners and dad jokes. Whether you're feeling down or just want to
+                    share a laugh with a friend, these jokes are always ready to entertain. Fun, fast, and perfect for
+                    lightening the mood!</p>
+                <span> Need a smile? check out our collection of jokes by clicking here <br>
+                    <button class="a-wrapper"><a data-name="😂 Get Jokes" href="https://meethatkar.github.io/Jokerrrr/" class="normal"> 😂 Get Jokes </a>
+                        <a data-name="😂 Get Jokes" href="https://meethatkar.github.io/Jokerrrr/" class="after"> 😂 Get Jokes </a>
+                    </sbutton
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/joke.png" alt="">
+            </div>
+        </div>
+
+        <!-- QUOTE -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2>Daily Dose of Inspiration</h2>
+                <p>Seeking a burst of motivation or a fresh perspective? This section connects you to a powerful quote
+                    API, delivering a diverse collection of uplifting and thought-provoking quotes. Whether you need
+                    encouragement, wisdom, or just a moment of reflection, these quotes are designed to empower and
+                    inspire. Simple, profound, and perfect for fueling your day!</p>
+                <span> Ready for inspiration? Discover powerful words of wisdom by clicking here <br>
+                    <button class="a-wrapper"><a data-name="✨ Get a Quote" href="https://meethatkar.github.io/Motivating-API/" class="normal"> ✨ Get a
+                            Quote </a>
+                        <a data-name="✨ Get a Quote" href="https://meethatkar.github.io/Motivating-API/" class="after"> ✨ Get a Quote
+                        </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/quote.png" alt="Illustration of a person reading an inspiring quote">
+            </div>
+        </div>
+
+
+        <!-- MEME -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2>Daily Dose of Laughter</h2>
+                <p>Need a quick chuckle or want to share some viral humor? This section connects you to a dynamic meme
+                    API, delivering a fresh collection of trending and classic memes. Whether you're looking for a
+                    relatable reaction image or just want to brighten your day, these memes are always ready to
+                    entertain. Fast, funny, and perfect for sharing the laughs!</p>
+                <span> Ready for a laugh? Generate a fresh meme by clicking here <br>
+                    <button class="a-wrapper"><a data-name="😂 Get a Meme" href="#https://meethatkar.github.io/Meming_page/" class="normal"> 😂 Get a Meme
+                        </a>
+                        <a data-name="😂 Get a Meme" href="#https://meethatkar.github.io/Meming_page/" class="after"> 😂 Get a Meme
+                        </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/meme.png" alt="Illustration of a person looking at a funny meme">
+            </div>
+        </div>
+
+
+        <!-- MOVIE -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2>The Film Vault </h2>
+                <p>Discover a vast collection of films, from timeless classics to the latest blockbusters. The Film
+                    Vault offers comprehensive details on your favorite movies, including plot summaries, cast
+                    information, ratings, and much more. Dive into the world of cinema and find your next watch!</p>
+                <span> Explore the world of movies! <br>
+                    <button class="a-wrapper"><a data-name="🎬 Go to Film Vault Search" href="https://the-flim-vault.netlify.app/" class="normal"> 🎬 Go to
+                            Film Vault Search </a>
+                        <a data-name="🎬 Go to Film Vault Search" href="https://the-flim-vault.netlify.app/" class="after"> 🎬 Go to
+                            Film Vault Search </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/movie.png" alt="Illustration of a person looking at a funny meme">
+            </div>
+        </div>
+
+        <!-- CURRENCY -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2> The Exchange Booth </h2>
+                <p> Instantly convert currencies and get real-time exchange rates from around the world. This section
+                    integrates with a live exchange rate API to help travelers, traders, and developers stay up to date
+                    with financial data. Whether you're planning a trip or managing transactions, this app gives
+                    accurate and fast currency updates.</p>
+                <span> Curious about today's exchange rates? Convert currency instantly! <br>
+                    <button class="a-wrapper"><a data-name="💱 Get Currency Rates" href="https://the-exchange-booth.netlify.app/" class="normal"> 💱 Get
+                            Currency Rates </a>
+                        <a data-name="💱 Get Currency Rates" href="https://the-exchange-booth.netlify.app/" class="after"> 💱 Get
+                            Currency Rates </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/currency.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- Country -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2> Country Info Extracter </h2>
+                <p> This section lets you explore real-time country information using a powerful REST API. You can view
+                    details such as the country's name, capital, population, area, currencies, region, and even flags.
+                    It's perfect for travelers, researchers, or anyone curious about world geography. Instantly discover
+                    comprehensive data about any nation with just a single click.</p>
+                <span> Access comprehensive country data and insights by clicking here <br>
+                    <button class="a-wrapper">
+                        <a data-name="🌍 Get Country Information"
+                        href="https://meethatkar.github.io/Country-Info-Extracter/" class="normal"> 🌍 Get Country Information </a>
+                    <a data-name="🌍 Get Country Information"
+                        href="https://meethatkar.github.io/Country-Info-Extracter/" class="after"> 🌍 Get Country Information </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/country.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- WEATHER -->
+        <div class="wrapper">
+            <div class="wrapper-left">
+                <h2> The Weather App </h2>
+                <p>Want to know if you need an umbrella today? This weather checker uses a public API to deliver live
+                    forecasts, temperature, humidity, and conditions based on your location or selected city. Ideal for
+                    daily planning, travel, or just staying informed about your environment. It's accurate, fast, and
+                    easy to use.</p>
+                <span> Curious about the forecast? Our Weather Checker app has you covered. <br>
+                    <button class="a-wrapper">
+                        <a data-name="☁️ Click to Get Weather Update"
+                            href="https://simple-weather-checker.netlify.app/" class="normal"> ☁️ Click to Get Weather Update </a>
+                        <a data-name="☁️ Click to Get Weather Update"
+                            href="https://simple-weather-checker.netlify.app/" class="after"> ☁️ Click to Get Weather Update </a>
+                    </button>
+                </span>
+            </div>
+            <div class="wrapper-right">
+                <img src="./assets/imgs/weather.png" alt="">
+            </div>
+        </div>
+        
     </main>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="script.js"></script>
