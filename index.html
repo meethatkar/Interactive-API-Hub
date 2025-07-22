@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Api Hub </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,7 +17,8 @@
     <main>
 
         <!-- JOKE -->
-        <div class="wrapper">
+        <div id="page1" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2> Daily Giggles </h2>
                 <p>Need a quick laugh or want to brighten your day? This section connects you to a joke API that
@@ -33,9 +35,11 @@
                 <img src="./assets/imgs/joke.png" alt="">
             </div>
         </div>
+        </div>
 
         <!-- QUOTE -->
-        <div class="wrapper">
+        <div id="page2" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2>Daily Dose of Inspiration</h2>
                 <p>Seeking a burst of motivation or a fresh perspective? This section connects you to a powerful quote
@@ -54,10 +58,12 @@
                 <img src="./assets/imgs/quote.png" alt="Illustration of a person reading an inspiring quote">
             </div>
         </div>
+        </div>
 
 
         <!-- MEME -->
-        <div class="wrapper">
+        <div id="page3" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2>Daily Dose of Laughter</h2>
                 <p>Need a quick chuckle or want to share some viral humor? This section connects you to a dynamic meme
@@ -76,10 +82,12 @@
                 <img src="./assets/imgs/meme.png" alt="Illustration of a person looking at a funny meme">
             </div>
         </div>
+        </div>
 
 
         <!-- MOVIE -->
-        <div class="wrapper">
+        <div id="page4" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2>The Film Vault </h2>
                 <p>Discover a vast collection of films, from timeless classics to the latest blockbusters. The Film
@@ -97,9 +105,11 @@
                 <img src="./assets/imgs/movie.png" alt="Illustration of a person looking at a funny meme">
             </div>
         </div>
+        </div>
 
         <!-- CURRENCY -->
-        <div class="wrapper">
+        <div id="page5" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2> The Exchange Booth </h2>
                 <p> Instantly convert currencies and get real-time exchange rates from around the world. This section
@@ -118,10 +128,12 @@
                 <img src="./assets/imgs/currency.png" alt="">
             </div>
         </div>
+        </div>
 
 
         <!-- Country -->
-        <div class="wrapper">
+        <div id="page6" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2> Country Info Extracter </h2>
                 <p> This section lets you explore real-time country information using a powerful REST API. You can view
@@ -141,10 +153,12 @@
                 <img src="./assets/imgs/country.png" alt="">
             </div>
         </div>
+        </div>
 
 
         <!-- WEATHER -->
-        <div class="wrapper">
+        <div id="page7" class="pages">
+            <div class="wrapper">
             <div class="wrapper-left">
                 <h2> The Weather App </h2>
                 <p>Want to know if you need an umbrella today? This weather checker uses a public API to deliver live
@@ -164,9 +178,13 @@
                 <img src="./assets/imgs/weather.png" alt="">
             </div>
         </div>
+        </div>
         
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
     <script src="script.js"></script>
 </body>
 
